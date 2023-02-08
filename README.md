@@ -2,9 +2,9 @@
 
 1. Clone the repository 
   ```bash
-  $ git clone 
+  $ git clone git@github.com:mominur-helios/openai-django-integration.git
   $ # or
-  $ git clone 
+  $ git clone https://github.com/mominur-helios/openai-django-integration.git
   ```
 2. `cd` into the folder
 3. Rename the `.env.example` file to `.env` and add the credentials. For the `API_KEY` go to this [link](https://platform.openai.com/account/api-keys) and generate a new secret key

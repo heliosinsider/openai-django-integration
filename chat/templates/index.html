@@ -20,7 +20,14 @@
       {% endfor %}
       <form class="px-3 py-5 rounded my-3 my-2 shadow" method="post">
         {% csrf_token %}
-        <input placeholder="Type here..." class="form-control" type="text" name="message" id="">
+        <div class="row">
+          <div class="col-lg-11 col-md-10">
+            <input placeholder="Type here..." class="form-control mb-3" type="text" name="message" id="">
+          </div>
+          <div class="col-lg-1 col-md-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
       </form>
     </div>
 
